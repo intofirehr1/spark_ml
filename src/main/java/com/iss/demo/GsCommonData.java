@@ -35,7 +35,7 @@ public class GsCommonData {
 //            fw.write(getContent(100));
 //            fw.write(getContentAll(1));
                 // 训练数据
-//                fw.write(getAllContents(10000, i, 100000*i));
+                fw.write(getAllContents(10000, i, 100000*i));
                 // 测试数据
             fw.write(getTestContents(1000,i,100000*i));
 
